@@ -13,7 +13,6 @@ export const trimTokens = anyFunction;
 
 export const elizaLogger = anyObject;
 
-
 export const ModelClass = anyClass;
 
 export type HandlerCallback = any;
