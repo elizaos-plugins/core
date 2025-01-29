@@ -12,8 +12,7 @@ export const splitChunks = anyFunction;
 export const trimTokens = anyFunction;
 
 export const elizaLogger = anyObject;
-
-export const ModelClass = anyClass;
+export const ModelClass = anyObject;
 
 export type HandlerCallback = any;
 export type IAgentRuntime = any;
