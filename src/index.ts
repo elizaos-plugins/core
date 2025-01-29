@@ -2,13 +2,16 @@
 // it should be marked as external and linked to the real implementation at runtime
 
 const anyFunction: (...args: any[]) => any = () => {};
+const anyObject: { [key: string]: any } = {};
 const anyClass: new (...args: any[]) => any = class {};
 
 export const generateText = anyFunction;
 export const composeContext = anyFunction;
-export const elizaLogger = anyFunction;
 export const splitChunks = anyFunction;
 export const trimTokens = anyFunction;
+
+export const elizaLogger = anyObject;
+
 
 export const ModelClass = anyClass;
 
