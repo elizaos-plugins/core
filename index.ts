@@ -16,4 +16,5 @@ export type HandlerCallback = any;
 export type IAgentRuntime = any;
 export type Memory = any;
 export type State = any;
+export type Plugin = any;
 export type Action = any;
