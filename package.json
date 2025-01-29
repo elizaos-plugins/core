@@ -1,0 +1,16 @@
+{
+  "name": "core",
+  "version": "0.0.1",
+  "description": "ElizaOS plugins core",
+  "main": "index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elizaos-plugins/core.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elizaos-plugins/core/issues"
+  },
+  "homepage": "https://github.com/elizaos-plugins/core#readme"
+}
