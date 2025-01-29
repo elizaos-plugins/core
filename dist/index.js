@@ -2,15 +2,13 @@
 var anyFunction = () => {
 };
 var anyObject = {};
-var anyClass = class {
-};
 var generateText = anyFunction;
 var generateObject = anyFunction;
 var composeContext = anyFunction;
 var splitChunks = anyFunction;
 var trimTokens = anyFunction;
 var elizaLogger = anyObject;
-var ModelClass = anyClass;
+var ModelClass = anyObject;
 export {
   ModelClass,
   composeContext,

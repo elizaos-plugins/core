@@ -6,7 +6,9 @@ declare const trimTokens: (...args: any[]) => any;
 declare const elizaLogger: {
     [key: string]: any;
 };
-declare const ModelClass: new (...args: any[]) => any;
+declare const ModelClass: {
+    [key: string]: any;
+};
 type HandlerCallback = any;
 type IAgentRuntime = any;
 type Memory = any;
