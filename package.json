@@ -2,7 +2,10 @@
   "name": "core",
   "version": "0.0.1",
   "description": "ElizaOS plugins core",
-  "main": "index.ts",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/elizaos-plugins/core.git"
@@ -12,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/elizaos-plugins/core/issues"
   },
-  "homepage": "https://github.com/elizaos-plugins/core#readme"
+  "homepage": "https://github.com/elizaos-plugins/core#readme",
+  "dependencies": {
+    "tsup": "8.3.5",
+    "typescript": "5.6.3"
+  },
+  "scripts": {
+    "build": "tsup --format esm --dts",
+    "dev": "tsup --format esm --dts --watch"
+  }
 }
