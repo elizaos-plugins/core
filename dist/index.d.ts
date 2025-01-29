@@ -1,8 +1,10 @@
 declare const generateText: (...args: any[]) => any;
 declare const composeContext: (...args: any[]) => any;
-declare const elizaLogger: (...args: any[]) => any;
 declare const splitChunks: (...args: any[]) => any;
 declare const trimTokens: (...args: any[]) => any;
+declare const elizaLogger: {
+    [key: string]: any;
+};
 declare const ModelClass: new (...args: any[]) => any;
 type HandlerCallback = any;
 type IAgentRuntime = any;
