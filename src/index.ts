@@ -6,6 +6,7 @@ const anyObject: { [key: string]: any } = {};
 const anyClass: new (...args: any[]) => any = class {};
 
 export const generateText = anyFunction;
+export const generateObject = anyFunction;
 export const composeContext = anyFunction;
 export const splitChunks = anyFunction;
 export const trimTokens = anyFunction;
@@ -21,3 +22,4 @@ export type Memory = any;
 export type State = any;
 export type Plugin = any;
 export type Action = any;
+export type Provider = any;
