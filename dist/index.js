@@ -5,6 +5,7 @@ var anyObject = {};
 var anyClass = class {
 };
 var generateText = anyFunction;
+var generateObject = anyFunction;
 var composeContext = anyFunction;
 var splitChunks = anyFunction;
 var trimTokens = anyFunction;
@@ -14,6 +15,7 @@ export {
   ModelClass,
   composeContext,
   elizaLogger,
+  generateObject,
   generateText,
   splitChunks,
   trimTokens

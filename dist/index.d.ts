@@ -1,4 +1,5 @@
 declare const generateText: (...args: any[]) => any;
+declare const generateObject: (...args: any[]) => any;
 declare const composeContext: (...args: any[]) => any;
 declare const splitChunks: (...args: any[]) => any;
 declare const trimTokens: (...args: any[]) => any;
@@ -12,5 +13,6 @@ type Memory = any;
 type State = any;
 type Plugin = any;
 type Action = any;
+type Provider = any;
 
-export { type Action, type HandlerCallback, type IAgentRuntime, type Memory, ModelClass, type Plugin, type State, composeContext, elizaLogger, generateText, splitChunks, trimTokens };
+export { type Action, type HandlerCallback, type IAgentRuntime, type Memory, ModelClass, type Plugin, type Provider, type State, composeContext, elizaLogger, generateObject, generateText, splitChunks, trimTokens };
